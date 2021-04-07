@@ -32,7 +32,7 @@ public class EducationFiles {
         return readTextFromFile(getFile(path));
     }
 
-    public static File getFile(String path) throws IOException {
+    public static File getFile(String path) {
         return new File(path);
     }
 
@@ -40,7 +40,7 @@ public class EducationFiles {
         return new PDF(getFile(path));
     }
 
-    public static XLS getXls(String path) throws IOException {
+    public static XLS getXls(String path) {
         return new XLS(getFile(path));
     }
 
