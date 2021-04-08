@@ -1,1 +1,10 @@
-automation-qaguru-6-working-with-files
+# Курс QA.GURU. Лекция Работаем с файлами
+Создание файлов:
+
+— Текстовый (doc\docx)
+
+— pdf
+
+— xls/xlsx
+
+— Архив .zip c паролем
