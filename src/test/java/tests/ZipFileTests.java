@@ -14,7 +14,7 @@ public class ZipFileTests {
 
     @Test
     public void checkZipFileWithPasswordTest() throws IOException, ZipException {
-        String zipFilePath = "./src/test/resources/testzip111.zip";
+        String zipFilePath = "./src/test/resources/testzip1.zip";
         String unzipFolderPath = "./src/test/resources/unzip";
         String unzipTxtFilePath = "./src/test/resources/unzip/testzip1.txt";
         String password = "111";
