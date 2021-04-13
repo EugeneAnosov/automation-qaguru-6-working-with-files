@@ -32,6 +32,10 @@ public class EducationFiles {
         return readTextFromFile(getFile(path));
     }
 
+    public static String readDocxFromPath(String path) throws IOException, OpenXML4JException, XmlException {
+        return getDocx(path).getText();
+    }
+
     public static File getFile(String path) {
         return new File(path);
     }
